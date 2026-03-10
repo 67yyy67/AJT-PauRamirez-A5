@@ -1,0 +1,22 @@
+Ex 1. 5/5
+Comentaris. Pots usar la funció "isinstance(variable, class)"
+            cm = [a for a in cm] + [song.t]
+  Aquesta línia la pots resumir com cm = cm + [song.t] o cm.append(song.t)
+  No hi ha cap discrepància a nivell de tipus de variables tal i com tens la lògica muntada.
+
+Ex 2. 5/5
+    Comentari:
+La idea del mètode __str__ és que li dona la capacitat a la classe Objecte de ser mostrada amb un print()
+class Exemple:
+  def __init__(self):
+    pass
+  def __str__(self):
+    return "algun text"
+
+e = Exemple()
+print(e) # --> Retorna "algun text"
+
+Extra. 2/2
+
+Enhorabona!
+Nota. 10
